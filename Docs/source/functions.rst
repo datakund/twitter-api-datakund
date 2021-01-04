@@ -20,3 +20,4 @@ Functions
    get_retweets
    get_tweet_links
    save_image_links
+   login_cookie

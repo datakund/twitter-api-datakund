@@ -1,7 +1,7 @@
 **************************************************
-Like
+Login Cookie
 **************************************************
-It likes the tweet whose link is passed in ``tweet_url``.
+It logins to the twitter through list of cookies passed in ``cookies``
 
 **body**: returns data
 
@@ -11,9 +11,9 @@ It likes the tweet whose link is passed in ``tweet_url``.
 
 Here is the code:-
 
-.. py:function:: twitter.like(tweet_url="tweet_url")
+.. py:function:: twitter.login_cookie(cookies="cookies")
 
    
-   :param str tweet_url: Tweet url which need to be liked
+   :param str cookies: list of cookies of twitter
    :return: {"body": {}, "success_score": "100", "errors": []}
    :rtype: dict

@@ -1,12 +1,18 @@
 **************************************************
 Get Followers
 **************************************************
-It fetches the followers from the page opened in browser.
+It follow the profile passed in ``profile_url``.
+
+**body**: returns data
+
+**success_score**: api success rate
+
+**errors**: errors encountered in api 
 
 Here is the code:-
 
 .. py:function:: twitter.get_followers()
 
    
-   :return: [{'Link': 'Link', 'Info': 'Info'}]
-   :rtype: list
+   :return: {"body": [{'Link': 'Link', 'Info': 'Info'}], "success_score": "100", "errors": []}
+   :rtype: dict

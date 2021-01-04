@@ -1,7 +1,13 @@
 **************************************************
 Post
 **************************************************
-It tweets on twitter with text passsed in ``tweet``.
+It tweets on twitter with text passed in ``tweet``.
+
+**body**: returns data
+
+**success_score**: api success rate
+
+**errors**: errors encountered in api 
 
 Here is the code:-
 
@@ -9,5 +15,5 @@ Here is the code:-
 
    
    :param str tweet: Tweet which need to be posted
-   :return: {}
+   :return: {"body": {}, "success_score": "100", "errors": []}
    :rtype: dict
