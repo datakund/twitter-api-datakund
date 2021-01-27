@@ -14,7 +14,6 @@ Creating Object
 **************************************************
 .. code-block:: python
 	
-	obj=datakund()
-	twitter=obj.twitter()
+	twitter=datakund.twitter()
 	
 It will return the object which you can further use to call twitter functions and opens a automated browser
