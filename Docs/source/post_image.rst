@@ -11,7 +11,7 @@ It posts image on twitter with text passed in ``tweet`` and image path in ``imag
 
 Here is the code:-
 
-.. py:function:: twitter.post_image(image_path="image_path",tweet="tweet")
+.. py:function:: twitter.post_image(image_path="C:/Users/image.png",tweet="Hi...")
 
    
    :param str image_path: Image file path which needs to be posted on twitter
