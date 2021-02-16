@@ -11,7 +11,7 @@ It follow the profile passed in ``profile_url``.
 
 Here is the code:-
 
-.. py:function:: twitter.follow(profile_url="profile_url")
+.. py:function:: twitter.follow(profile_url="https://twitter.com/whitehatjunior")
 
    
    :param str profile_url: Profile url need to be followed
