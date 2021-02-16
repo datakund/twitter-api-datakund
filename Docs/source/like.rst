@@ -11,7 +11,7 @@ It likes the tweet whose link is passed in ``tweet_url``.
 
 Here is the code:-
 
-.. py:function:: twitter.like(tweet_url="tweet_url")
+.. py:function:: twitter.like(tweet_url="https://twitter.com/whitehatjunior/status/1361262548410982402")
 
    
    :param str tweet_url: Tweet url which need to be liked
