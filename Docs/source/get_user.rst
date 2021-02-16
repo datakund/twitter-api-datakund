@@ -11,7 +11,7 @@ It fetches the data of profile passed in ``profile_url``.
 
 Here is the code:-
 
-.. py:function:: twitter.get_user(profile_url="profile_url")
+.. py:function:: twitter.get_user(profile_url="https://twitter.com/whitehatjunior")
 
    
    :param str profile_url: Profile url whose information need to be fetched
