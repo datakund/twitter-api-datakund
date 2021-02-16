@@ -11,7 +11,7 @@ It logins to twitter through credentials passed in ``username`` and ``password``
 
 Here is the code:-
 
-.. py:function:: twitter.login(username="username",password="password")
+.. py:function:: twitter.login(username="datakund@gmail.com",password="pwd@123")
 
    
    :param str username: Twitter Username
