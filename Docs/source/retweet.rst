@@ -11,7 +11,7 @@ It retweets on tweet passed in ``tweet_url``.
 
 Here is the code:-
 
-.. py:function:: twitter.retweet(tweet_url="tweet_url")
+.. py:function:: twitter.retweet(tweet_url="https://twitter.com/whitehatjunior/status/1361262548410982402")
 
    
    :param str tweet_url: Tweet link where need to retweet
