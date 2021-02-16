@@ -11,7 +11,7 @@ It tweets on twitter with text passed in ``tweet``.
 
 Here is the code:-
 
-.. py:function:: twitter.post(tweet="tweet")
+.. py:function:: twitter.post(tweet="Hi everyone, hope doing well")
 
    
    :param str tweet: Tweet which need to be posted
