@@ -11,7 +11,7 @@ It logins to the twitter through list of cookies passed in ``cookies``
 
 Here is the code:-
 
-.. py:function:: twitter.login_cookie(cookies="cookies")
+.. py:function:: twitter.login_cookie(cookies=[{"domain": ".twitter.com","expirationDate": 1676527503,"hostOnly": false,"httpOnly": false,},...])
 
    
    :param str cookies: list of cookies of twitter
