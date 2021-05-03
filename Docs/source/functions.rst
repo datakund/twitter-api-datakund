@@ -1,7 +1,7 @@
 Functions
 **************************************************
 
-``datakund`` provides following functions for twitter:-
+``bot-studio`` provides following functions for twitter:-
 
 .. toctree::
    :maxdepth: 2
